@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: #1f252d;
+    background-size: cover;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.content {
+    margin: 10% auto;
+}
+
+.content h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    position: relative;
+    top: -25px;
+}
+
+.content img {
+    height: 200px;
+}
+
+form {
+    max-width: 200px;
+    margin: 25px auto;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+
+.form-group input {
+    padding-left: 30px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-group strong {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+    left: -9px;
+    font-family: "Source Sans Pro", sans-serif;
+    top: -4px;
+    font-size: 15px;
+}
+
+.form-group button {
+    border: 0;
+    border-radius: 0;
+    background-color: #31b4bd;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}

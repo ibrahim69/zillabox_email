@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Email</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header col-sm-2">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    <a class="navbar-brand" href="#"> Zillabox </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <form class="navbar-form navbar-left col-sm-6" role="search">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-addon"><i class="fa fa-search"></i></div>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" id="dropdownNews" class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                <span class="circle"></span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownNews">
+                                <h3>Facebook</h3>
+                                <div class="news">
+                                    <img class="img-circle" src="images/testimonial1.png" alt="Testimonial" width="30" height="30">
+                                    <div class="sub-news">
+                                        <span class="title"><strong>Baru sorotan kabar terkini dari Fa...</strong></span>
+                                        <br>
+                                        <span>Lorem ipsum dolor sit amet...</span>
+                                        <span class="fa fa-times pull-right"></span>
+                                    </div>
+                                    <!-- /.sub-news -->
+                                </div>
+                                <!-- /.news -->
+                            </div>
+                            <!-- /.dropdown-news -->
+                        </li>
+                        <li>
+                            <img src="images/testimonial1.png" class="img-circle" alt="Fotoku" width="30" height="30">
+                        </li>
+                        <li class="dropdown1">
+                            <a href="#" id="dropdownMenu" class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fendy Kharisma <i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                <a class="button dropdown-item pull-left" href="#">Tambahkan Akun</a>
+                                <a class="button dropdown-item pull-right" href="#">Logout</a>
+                            </div>
+                        </li>
+                        <!-- /.dropdown -->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="content container-fluid" style="padding:0;">
+            <div id="nav" class="menu">
+                <div class="foto-profil">
+                    <img src="images/testimonial1.png" class="img-circle" alt="Fotoku" width="100" height="100">
+
+                    <ul class="nav fanspage">
+                        <li class="dropdown2">
+                            <a href="#" id="Menu" class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kata Kita <i class="fa fa-caret-down"></i></a>
+
+                            <div class="dropdown-menu" aria-labelledby="Menu">
+                                <a class="menu-item" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm</a>
+                            </div>
+                        </li>
+                        <!-- /.dropdown2 -->
+                    </ul>
+                </div>
+                <!-- /.foto-profil -->
+
+                <ul class="menus">
+                    <li><a href="#">Inbox <span class="number">(5)</span></a></li>
+                    <li><a href="#">Sent</a></li>
+                    <li><a href="#">Labels</a></li>
+                    <li><a href="#">Important</a></li>
+                    <li><a href="#">Warning</a></li>
+                    <li><a href="#">Information</a></li>
+                </ul>
+            </div>
+            <!-- /.col-sm-3 menu -->
+
+            <div class="content-wrapper" style="padding:0;">
+                <div class="navigation navbar-fixed-top" role="navigation">
+                    <div class="pull-left">
+                        <div class="box1">
+                            <div class="checkbox F-A T-I" role="button" type="button">
+                                <div class="dropdown3">
+                                    <a href="#" id="checkbox" class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="fa fa-square"></span>
+                                        <span class="fa fa-caret-down"></span>
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="checkbox">
+                                        <a href="#">Semua</a>
+                                        <a href="#">Tak Satu Pun </a>
+                                        <a href="#">Telah Dibaca</a>
+                                        <a href="#">Belum Dibaca</a>
+                                        <a href="#">Berbintang</a>
+                                        <a href="#">Tak Berbintang</a>
+                                    </div>
+                                </div>
+                                <!-- /.dropdown3 -->
+                            </div>
+                            <!-- /.checkbox .T-I -->
+
+                            <div class="trash F-A T-I" role="button">
+                                <span class="fa fa-trash-o"></span>
+                            </div>
+                        </div>
+
+                        <div class="box2">
+                            <div class="undo F-A T-I" role="button">
+                                <img src="images/back-arrow.svg" alt="backward" width="11" height="11">
+                            </div>
+                            <div class="share F-A T-I" role="button">
+                                <img src="images/forward-arrow.svg" alt="backward" width="11" height="11">
+                            </div>
+                            <div class="refresh F-A T-I" role="button">
+                                <span class="fa fa-refresh"></span>
+                            </div>
+                        </div>
+
+                        <div class="box3">
+                            <div class="dropdown4">
+                                <div class="more F-A T-I" role="button">
+                                    <a href="#" id="more" class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                    <span class="fa fa-caret-down"></span>
+                                  </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="more">
+                                        <a href="#">Semua</a>
+                                        <a href="#">Tak Satu Pun </a>
+                                        <a href="#">Telah Dibaca</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.pull-left -->
+
+                    <div class="nav-right clearfix">
+                        <div class="next-previous">
+                            <span class="text">
+                                <span class="ts-1">1</span> -
+                            <span class="ts-1">5</span> of
+                            <span class="ts-1">20</span>
+                            </span>
+
+                            <div class="next F-A T-I" role="button">
+                                <span class="fa fa-chevron-left"></span>
+                            </div>
+
+                            <div class="previous F-A T-I" role="button">
+                                <span class="fa fa-chevron-right"></span>
+                            </div>
+                        </div>
+                        <!-- /.next-previous -->
+                    </div>
+                    <!-- /.pull-right -->
+                </div>
+
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (5) </span> </td>
+                            <td cellspacing="3"><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 5 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (2) </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 1 day ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class=""></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count">  </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor .</span></td>
+                            <td><span> 2 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> </span> </td>
+                            <td><span class=" L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 10 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (5) </span> </td>
+                            <td cellspacing="3"><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 5 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (2) </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 1 day ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (2) </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 1 day ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (2) </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 1 day ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class=""></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count">  </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor .</span></td>
+                            <td><span> 2 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> </span> </td>
+                            <td><span class=" L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 10 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> (2) </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 1 day ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class=""></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count">  </span> </td>
+                            <td><span class="fa fa-paperclip L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor .</span></td>
+                            <td><span> 2 mins ago</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="star" title="Tidak Berbintang"><img src="images/star-lit4_2x.png" alt="Berbintang" ></span></td>
+                            <td><span class="L-1"><input type="checkbox" name="" value=""></span></td>
+                            <td><span class="fa fa-circle L-1"></span></td>
+                            <td><img src="images/testimonial1.png" class="img-circle" alt="Photo" width="30" height="30"></td>
+                            <td><span> Ibrahim Abdul Majid</span></td>
+                            <td><span class="count"> </span> </td>
+                            <td><span class=" L-1"></span></td>
+                            <td><span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim cumque</span></td>
+                            <td><span> 10 mins ago</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.col-sm-8 -->
+        </section>
+        <!-- .content -->
+        <section class="chatting">
+            <div class="container-fluid">
+                <div class="panel-group">
+                    <div class="panel panel-primary pull-right">
+                        <div class="panel-heading" id="accordion" data-toggle="collapse" href="#collapse1">
+                            <img class="img-circle" src="images/testimonial1.png" alt="Testimonial" width="30" height="30">
+                            <span>Ibrahim Abdul Majid</span>
+                            <span class="fa fa-times pull-right"></span>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="chat">
+                                    <small class="text-muted text-center">
+                                 Minggu 30 Maret 2017
+                              </small>
+                                    <li class="left clearfix">
+                                        <span class="chat-img pull-left">
+                                               <img src="images/testimonial1.png" alt="User Avatar" class="img-circle" width="30" height="30" />
+                                            </span>
+                                        <div class="chat-body clearfix">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                            <small class="text-muted">
+                                           12 mins ago
+                                        </small>
+                                        </div>
+                                    </li>
+
+                                    <li class="right clearfix">
+                                        <span class="chat-img pull-right">
+                                        <img src="images/testimonial1.png" alt="User Avatar" class="img-circle" width="30" height="30" />
+                                    </span>
+                                        <div class="chat-body clearfix">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            </p>
+                                            <small class="text-muted">
+                                            <span class="fa fa-time"></span>12 mins ago
+                                        </small>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <!-- /.panel-body -->
+                            <div class="panel-footer">
+                                <div class="inner-addon">
+                                    <i class="fa fa-smile-o left-inner-addon"></i>
+                                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                    <i class="fa fa-picture-o right-inner-addon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./panel-primary -->
+                </div>
+                <!-- ./panel-group -->
+
+                <div class="panel-group">
+                    <div class="panel panel-primary pull-right">
+                        <div class="panel-heading" data-toggle="collapse" href="#collapse2">
+                            <img class="img-circle" src="images/testimonial1.png" alt="Testimonial" width="30" height="30">
+                            <span>Ibrahim Abdul Majid</span>
+                            <span class="fa fa-times pull-right"></span>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="chat">
+                                    <small class="text-muted text-center">
+                                   Minggu 30 Maret 2017
+                                </small>
+                                    <li class="left clearfix">
+                                        <span class="chat-img pull-left">
+                                                 <img src="images/testimonial1.png" alt="User Avatar" class="img-circle" width="30" height="30" />
+                                              </span>
+                                        <div class="chat-body clearfix">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                            <small class="text-muted">
+                                             12 mins ago
+                                          </small>
+                                        </div>
+                                    </li>
+
+                                    <li class="right clearfix">
+                                        <span class="chat-img pull-right">
+                                          <img src="images/testimonial1.png" alt="User Avatar" class="img-circle" width="30" height="30" />
+                                      </span>
+                                        <div class="chat-body clearfix">
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            </p>
+                                            <small class="text-muted">
+                                              <span class="fa fa-time"></span>12 mins ago
+                                          </small>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <!-- /.panel-body -->
+                            <div class="panel-footer">
+                                <div class="inner-addon">
+                                    <i class="fa fa-smile-o left-inner-addon"></i>
+                                    <input type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                    <i class="fa fa-picture-o right-inner-addon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./panel-primary -->
+                </div>
+                <!-- ./panel-group -->
+            </div>
+            <!-- /.container-fluid -->
+        </section>
+        <!-- /.chatting -->
+    </main>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        $('.star').click(function() {
+            $('.star img').toggle();
+        });
+    </script>
+
+    <script>
+      $('.dropdown a').on('click', function() {
+        $('.circle').removeClass()
+      });
+    </script>
+
+</body>
+
+</html>
